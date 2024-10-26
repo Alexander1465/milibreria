@@ -1,0 +1,30 @@
+import { Canvas, Meta } from "@storybook/blocks";
+import Example from "./example.tsx";
+import * as AlexanderAEP from "./AlexanderAEP.stories.tsx";
+
+<Meta of={AlexanderAEP} title="AlexanderAEP" />
+
+# AlexanderAEP
+
+Componente que muestra una tarjeta con un avatar, un título y una descripción.
+
+#### Ejemplo
+
+<Canvas of={AlexanderAEP.Primary} />
+
+## Uso
+
+```tsx
+import AlexanderAEP from 'milibreria';
+
+function Example() {
+  return (
+    <AlexanderAEP
+      title="Ale Allen"
+      description="The Fastest Man Alive"
+      avatar="https://example.com/Ale-avatar.jpg"
+    />
+  );
+}
+
+export default Example;
