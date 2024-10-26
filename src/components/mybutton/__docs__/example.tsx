@@ -1,3 +1,4 @@
+// src/components/mybutton/__docs__/example.tsx
 import React from 'react';
 import MyButton, { MyButtonProps } from '../mybutton';
 

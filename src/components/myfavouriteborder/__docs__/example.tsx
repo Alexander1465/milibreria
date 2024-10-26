@@ -1,3 +1,4 @@
+// src/components/myfavouriteborder/__docs__/example.tsx
 import React from 'react';
 import MyFavouriteBorder, { MyFavouriteBorderProps } from '../myfavouriteborder';
 

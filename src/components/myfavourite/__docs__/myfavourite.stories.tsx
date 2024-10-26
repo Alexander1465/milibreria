@@ -1,3 +1,4 @@
+// src/components/myfavourite/__docs__/myfavourite.stories.tsx
 import type { Meta, StoryObj } from '@storybook/react';
 import Example from './example'; 
 

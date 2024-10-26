@@ -25,4 +25,4 @@ export const Secondary: Story = {
  size: "small",
  onClick: () => alert("Button secondary"),
  },
-}; 
+};

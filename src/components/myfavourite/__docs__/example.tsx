@@ -1,3 +1,4 @@
+// src/components/myfavourite/__docs__/example.tsx
 import React from 'react';
 import MyFavourite, { MyFavouriteProps } from '../myfavourite';
 
