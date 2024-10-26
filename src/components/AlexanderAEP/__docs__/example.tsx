@@ -1,8 +1,9 @@
+// example.tsx
 import React from 'react';
-import AlexanderAEP, { AlexanderAEPProps } from '../AlexanderAEP';
+import AlexanderAEP, { AlexanderAEP } from '../AlexanderAEP';
 
 // Creamos un componente Example para renderizar AlexanderAEP con las props que le pasamos
-function Example(props: AlexanderAEPProps) {
+function Example(props: AlexanderAEP) {
   return (
     <AlexanderAEP
       title={props.title}
@@ -13,3 +14,4 @@ function Example(props: AlexanderAEPProps) {
 }
 
 export default Example;
+

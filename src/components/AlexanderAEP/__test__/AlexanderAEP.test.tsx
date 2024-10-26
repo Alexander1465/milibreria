@@ -1,7 +1,8 @@
+// AlexanderAEP.test.tsx
 import React from 'react';
 import { describe, expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import AlexanderAEP from '../AlexanderAEP'; 
+import AlexanderAEP from '../AlexanderAEP'; // importo mi componente AlexanderAEP
 
 describe('AlexanderAEP component', () => {
   it('El componente AlexanderAEP se debería renderizar correctamente', () => {

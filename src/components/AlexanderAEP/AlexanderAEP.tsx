@@ -1,13 +1,14 @@
+// AlexanderAEP.tsx
 import React from 'react';
 import { Card, CardContent, Typography, Avatar } from '@mui/material';
 
-interface AlexanderAEPProps {
+interface AlexanderAEP {
   title: string;
   description: string;
   avatar: string;
 }
 
-const AlexanderAEP: React.FC<AlexanderAEPProps> = ({ title, description, avatar }) => {
+const AlexanderAEP: React.FC<AlexanderAEP> = ({ title, description, avatar }) => {
   return (
     <Card sx={{ maxWidth: 345, margin: '16px auto' }}>
       <CardContent sx={{ display: 'flex', alignItems: 'center' }}>
