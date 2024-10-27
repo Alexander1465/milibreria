@@ -8,11 +8,11 @@ export interface MyFavouriteProps {
   onClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
-const MyFavorite: React.FC<MyFavouriteProps> = ({ iconColor, disabled, onClick }) => (
+const MyFavourite: React.FC<MyFavouriteProps> = ({ iconColor, disabled, onClick }) => (
   <IconButton onClick={onClick} disabled={disabled} sx={{ color: iconColor }}>
     <FavoriteIcon />
   </IconButton>
 );
 
-export default MyFavorite;
+export default MyFavourite;
 

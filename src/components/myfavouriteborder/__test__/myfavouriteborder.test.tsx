@@ -1,11 +1,11 @@
 import React from 'react';
 import { describe, expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import MyFavBorder from '../myfavborder';
+import MyFavouriteBorder from '../myfavouriteborder';
 
-describe('MyFavBorder component', () => {
+describe('MyFavouriteBorder component', () => {
   it('debería renderizarse correctamente', () => {
-    render(<MyFavBorder iconColor="green" />);
+    render(<MyFavouriteBorder iconColor="green" />);
     const iconButton = screen.getByRole('button');
     expect(iconButton).toBeInTheDocument();
   });

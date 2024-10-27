@@ -7881,8 +7881,8 @@ const $u = ({ title: e, description: t, avatar: r }) => /* @__PURE__ */ J.jsx(ii
 export {
   wu as CustomButton,
   $u as AlexanderAEP,
-  Tu as MyButton,
-  Ru as MyFavorite,
-  Ou as MyFavoriteBorder
+  Tu as mybutton,
+  Ru as myfavourite,
+  Ou as myfavouriteBorder
 };
 //# sourceMappingURL=index.es.js.map

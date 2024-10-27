@@ -1,9 +1,9 @@
 import React from 'react';
-import MyFavBorder, { MyFavBorderProps } from '../myfavborder';
+import MyFavouriteBorder, { MyFavouriteBorderProps } from '../myfavouriteborder';
 
-function Example(props: MyFavBorderProps) {
+function Example(props: MyFavouriteBorderProps) {
   return (
-    <MyFavBorder
+    <MyFavouriteBorder
       iconColor={props.iconColor}
       disabled={props.disabled}
       onClick={props.onClick}

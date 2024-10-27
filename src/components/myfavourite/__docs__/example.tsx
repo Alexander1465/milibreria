@@ -1,9 +1,9 @@
 import React from 'react';
-import MyFavorite, { MyFavoriteProps } from '../myfavorite';
+import MyFavorite, { MyFavoriteProps } from '../myfavourite';
 
-function Example(props: MyFavoriteProps) {
+function Example(props: MyFavouriteProps) {
   return (
-    <MyFavorite
+    <MyFavourite
       iconColor={props.iconColor}
       disabled={props.disabled}
       onClick={props.onClick}

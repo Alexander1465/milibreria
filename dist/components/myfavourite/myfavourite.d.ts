@@ -1,8 +1,8 @@
 import { MouseEventHandler } from 'react';
-export interface MyFavouriteProps {
+export interface myfavouriteProps {
     iconColor: string;
     disabled?: boolean;
     onClick?: MouseEventHandler<HTMLButtonElement>;
 }
-declare const MyFavorite: React.FC<MyFavouriteProps>;
-export default MyFavorite;
+declare const myfavourite: React.FC<myfavouriteProps>;
+export default myfavourite;

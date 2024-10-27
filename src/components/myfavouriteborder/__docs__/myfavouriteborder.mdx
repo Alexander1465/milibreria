@@ -1,24 +1,24 @@
 import { Canvas, Meta } from "@storybook/blocks";
-import * as MyFavBorderStories from "./myfavborder.stories.tsx";
+import * as MyFavouriteBorderStories from "./myfavouriteborder.stories.tsx";
 
-<Meta of={MyFavBorderStories} title="MyFavBorder" />
+<Meta of={MyFavouriteBorderStories} title="MyFavouriteBorder" />
 
-# MyFavBorder
+# MyFavouriteBorder
 
 Botón de ícono con borde basado en Material-UI.
 
 #### Example - Primary
 
-<Canvas of={MyFavBorderStories.Primary} />
+<Canvas of={MyFavouriteBorderStories.Primary} />
 
 ## Usage
 
 ```tsx
-import { MyFavBorder } from 'milibreria';
+import { MyFavouriteBorder } from 'milibreria';
 
 function Example() {
   return (
-    <MyFavBorder
+    <MyFavouriteBorder
       iconColor="purple"  // Cambiado a morado
       disabled={false}
       onClick={() => alert("Icon clicked")}

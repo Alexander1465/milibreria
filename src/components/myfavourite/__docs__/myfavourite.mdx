@@ -1,25 +1,25 @@
 import { Canvas, Meta } from "@storybook/blocks";
 import Example from "./example.tsx";
-import * as MyFavoriteStories from "./myfavorite.stories.tsx";
+import * as MyFavouriteStories from "./myfavourite.stories.tsx";
 
-<Meta of={MyFavoriteStories} title="MyFavorite" />
+<Meta of={MyFavouriteStories} title="MyFavourite" />
 
-# MyFavorite
+# MyFavourite
 
 Botón de ícono personalizado basado en Material-UI con el ícono de favorito.
 
 #### Example - Primary
 
-<Canvas of={MyFavoriteStories.Primary} />
+<Canvas of={MyFavouriteStories.Primary} />
 
 ## Usage
 
 ```tsx
-import { MyFavorite } from 'milibreria';
+import { MyFavourite } from 'milibreria';
 
 function Example() {
   return (
-    <MyFavorite
+    <MyFavourite
       iconColor="red"
       disabled={false}
       onClick={() => alert("Icon clicked")}

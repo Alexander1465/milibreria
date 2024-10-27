@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Example from './example'; 
 
 const meta: Meta<typeof Example> = {
-  title: 'MyFavBorder',
+  title: 'MyFavourite',
   component: Example,
 };
 
@@ -12,15 +12,15 @@ type Story = StoryObj<typeof Example>;
 
 export const Primary: Story = {
   args: {
-    iconColor: 'orange',  
+    iconColor: 'red',
     disabled: false,
-    onClick: () => alert('Icon clicked'),
+    onClick: () => alert('Icono pulsado o clicado'),  
   },
 };
 
 export const Disabled: Story = {
   args: {
-    iconColor: 'lightgray',  
+    iconColor: 'gray',
     disabled: true,
   },
 };
