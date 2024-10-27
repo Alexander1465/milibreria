@@ -1,5 +1,6 @@
+// src/components/mybutton/__docs__/example.tsx
 import React from 'react';
-import MyButton, { MyButtonProps } from '../MyButton';
+import MyButton, { MyButtonProps } from '../mybutton';
 
 function Example(props: MyButtonProps) {
   return (

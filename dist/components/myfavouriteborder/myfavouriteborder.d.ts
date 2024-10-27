@@ -1,8 +1,8 @@
 import { MouseEventHandler } from 'react';
-export interface myfavouriteborderrProps {
+export interface MyFavouriteBorderProps {
     iconColor: string;
     disabled?: boolean;
     onClick?: MouseEventHandler<HTMLButtonElement>;
 }
-declare function myfavouriteborder(props: myfavouriteborderProps): import("react/jsx-runtime").JSX.Element;
-export default myfavouriteborder;
+declare function MyFavouriteBorder(props: MyFavouriteBorderProps): import("react/jsx-runtime").JSX.Element;
+export default MyFavouriteBorder;

@@ -7,5 +7,5 @@ describe("CustomButton component", () => {
  render(<CustomButton text='Hola' txtcolor='white' bgcolor='orange' />);
  const button = screen.getByRole("button");
  expect(button).toBeInTheDocument();
-    });
+ });
 });

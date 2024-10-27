@@ -1,3 +1,4 @@
+// src/components/myfavourite/__docs__/myfavourite.stories.tsx
 import type { Meta, StoryObj } from '@storybook/react';
 import Example from './example'; 
 
@@ -14,7 +15,7 @@ export const Primary: Story = {
   args: {
     iconColor: 'red',
     disabled: false,
-    onClick: () => alert('Icono pulsado o clicado'),  
+    onClick: () => alert('Icon clicked'),
   },
 };
 
@@ -24,4 +25,3 @@ export const Disabled: Story = {
     disabled: true,
   },
 };
- 

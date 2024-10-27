@@ -1,5 +1,6 @@
+// src/components/myfavourite/__docs__/example.tsx
 import React from 'react';
-import MyFavorite, { MyFavoriteProps } from '../myfavourite';
+import MyFavourite, { MyFavouriteProps } from '../myfavourite';
 
 function Example(props: MyFavouriteProps) {
   return (
@@ -11,4 +12,4 @@ function Example(props: MyFavouriteProps) {
   );
 }
 
-export default Example; 
+export default Example;
