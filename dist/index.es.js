@@ -7880,7 +7880,7 @@ const $u = ({ title: e, description: t, avatar: r }) => /* @__PURE__ */ J.jsx(ii
 ] }) });
 export {
   wu as CustomButton,
-  $u as GiselaRM,
+  $u as AlexanderAEP,
   Tu as MyButton,
   Ru as MyFavorite,
   Ou as MyFavoriteBorder
