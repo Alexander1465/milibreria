@@ -1,2 +1,1 @@
-// index.ts
-export { default as MyButton } from './mybutton';
+export { default as MyButton } from './MyButton';

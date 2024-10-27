@@ -1,27 +1,25 @@
 import { MouseEventHandler } from 'react';
 import IconButton from '@mui/material/IconButton';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
-export interface MyFavouriteProps {
+export interface MyFavBorderProps {
   iconColor: string; 
   disabled?: boolean; 
   onClick?: MouseEventHandler<HTMLButtonElement>; 
 }
 
-function MyFavourite(props: MyFavouriteProps) {
+function MyFavBorder(props: MyFavBorderProps) {
   const { iconColor, disabled, onClick } = props;
 
   return (
     <IconButton
       onClick={onClick}
       disabled={disabled}
-      sx={{ color: iconColor }} 
+      sx={{ color: iconColor }}
     >
-      <FavoriteIcon />
+      <FavoriteBorderIcon />
     </IconButton>
   );
 }
 
-export default MyFavourite;
-
-
+export default MyFavBorder;

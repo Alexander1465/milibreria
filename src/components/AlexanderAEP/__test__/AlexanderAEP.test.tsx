@@ -1,29 +1,25 @@
-// AlexanderAEP.test.tsx
 import React from 'react';
 import { describe, expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
-import AlexanderAEP from '../AlexanderAEP'; // importo mi componente AlexanderAEP
+import AlexanderAEP from '../AlexanderAEP'; 
 
 describe('AlexanderAEP component', () => {
   it('El componente AlexanderAEP se debería renderizar correctamente', () => {
     render(
       <AlexanderAEP
-        title="Test Title"
-        description="Test Description"
+        title="Titulo del test"
+        description="Descripcion del test"
         avatar="https://example.com/avatar.jpg"
       />
     );
-    
-    // Verificar que el título está presente
-    const title = screen.getByText('Test Title');
+
+    const title = screen.getByText('Titulo del test');
     expect(title).toBeInTheDocument();
-    
-    // Verificar que la descripción está presente
-    const description = screen.getByText('Test Description');
+
+    const description = screen.getByText('Descripcion del test');
     expect(description).toBeInTheDocument();
-    
-    // Verificar que el avatar se renderiza correctamente (por ejemplo con el alt text del avatar)
-    const avatar = screen.getByAltText('Test Title');
+
+    const avatar = screen.getByAltText('Titulo del test');
     expect(avatar).toBeInTheDocument();
   });
 });

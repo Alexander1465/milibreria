@@ -1,8 +1,6 @@
-// src/components/mybutton/__docs__/mybutton.stories.tsx
 import type { Meta, StoryObj } from "@storybook/react";
-import Example from "./example"; // Importamos el componente Example
+import Example from "./example.tsx"; 
 
-// Definimos los metadatos para Storybook
 const meta: Meta<typeof Example> = {
   title: "MyButton",
   component: Example,
@@ -12,34 +10,32 @@ export default meta;
 
 type Story = StoryObj<typeof Example>;
 
-// Definimos la primera historia: Primary
 export const Primary: Story = {
   args: {
-    text: "Button primary",
-    txtcolor: 'black',
-    bgcolor: 'red',
-    bordercolor: 'red',
+    text: "Botón Primario",
+    txtcolor: 'white',
+    bgcolor: 'purple',
+    bordercolor: 'purple',
     bordersize: '2px',
-    hoverTxtColor: 'white',
-    hoverBgColor: 'blue',
+    hoverTxtColor: 'pink',
+    hoverBgColor: 'magenta',
     disabled: false,
     size: "small",
-    onClick: () => alert("Button Primary"),
+    onClick: () => alert("Botón Primario"),
   },
 };
 
-// Definimos la segunda historia: Secondary
 export const Secondary: Story = {
   args: {
-    text: "Button secondary",
-    txtcolor: 'white',
+    text: "Botón Secundario",
+    txtcolor: 'black',
     bgcolor: 'pink',
     bordercolor: 'pink',
     bordersize: '1px',
-    hoverTxtColor: 'black',
-    hoverBgColor: 'yellow',
+    hoverTxtColor: 'white',
+    hoverBgColor: 'purple',
     disabled: false,
     size: "small",
-    onClick: () => alert("Button secondary"),
+    onClick: () => alert("Botón Secundario"),
   },
 };

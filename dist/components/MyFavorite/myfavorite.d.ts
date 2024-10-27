@@ -4,5 +4,5 @@ export interface MyFavouriteProps {
     disabled?: boolean;
     onClick?: MouseEventHandler<HTMLButtonElement>;
 }
-declare function MyFavourite(props: MyFavouriteProps): import("react/jsx-runtime").JSX.Element;
-export default MyFavourite;
+declare const MyFavorite: React.FC<MyFavouriteProps>;
+export default MyFavorite;

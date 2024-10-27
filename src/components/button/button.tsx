@@ -1,6 +1,5 @@
 import { MouseEventHandler } from 'react';
 import Button from '@mui/material/Button';
-
 //Declaro la interface del componente.
 export interface CustomButtonProps{
  text: string; //prop text de tipo string. Es el texto del botón
