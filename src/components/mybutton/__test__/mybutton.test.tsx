@@ -1,4 +1,3 @@
-// src/components/mybutton/__test__/mybutton.test.tsx
 import React from 'react';
 import { describe, expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';

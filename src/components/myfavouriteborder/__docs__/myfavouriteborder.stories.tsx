@@ -1,4 +1,3 @@
-// src/components/myfavouriteborder/__docs__/myfavouriteborder.stories.tsx
 import type { Meta, StoryObj } from '@storybook/react';
 import Example from './example'; 
 
